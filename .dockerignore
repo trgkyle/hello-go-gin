@@ -1,0 +1,26 @@
+# Ignore common files and directories
+.git
+.idea
+.vscode
+*.log
+*.db
+*.sqlite
+*.swp
+
+# Ignore test files and directories
+test/
+tests/
+*_test.go
+
+# Ignore build artifacts
+bin/
+pkg/
+*.out
+
+# Ignore Docker-related files if needed
+Dockerfile*
+.dockerignore
+
+# Ignore other unnecessary files and directories
+node_modules/
+vendor/
